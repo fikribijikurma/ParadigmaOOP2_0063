@@ -19,5 +19,15 @@ class pekerja : virtual public orang {
 };
 
 class pelajar : virtual public orang{
+public:
+
+    pelajar(int pUmur) : orang(pUmur){
+        cout << "pelajar dibuat\n" << endl;
+    }
+};
+
+class budi : bublic pekerja, public pelajar{
+public:
+
     
 }
