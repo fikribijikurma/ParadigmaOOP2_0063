@@ -17,5 +17,8 @@ public:
 };
 
 class Lia : public seseorang{
-    
-}
+public:
+    void pesan(){
+        cout << "pesan dari lia" << endl;
+    }
+};
