@@ -12,6 +12,10 @@ public:
 class joko : public seseorang{
 public:
     void pesan(){
-        
+        cout << "pesan dari joko" << endl;
     }
+};
+
+class Lia : public seseorang{
+    
 }
