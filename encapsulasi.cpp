@@ -8,4 +8,13 @@ public:
     void setSaklarNo(int i, string value){
         saklarNO[i] = value;
     }
+    string getSaklarNo(int i){
+        return saklarNo[i];
+    }
 };
+
+int main(){
+    remoteLampu lampuRumah;
+
+    
+}
